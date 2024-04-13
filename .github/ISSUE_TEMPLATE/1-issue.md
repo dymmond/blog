@@ -15,7 +15,6 @@ We can then decide if the discussion needs to be escalated into an "Issue" or no
 This will make sure that everything is organised properly.
 ---
 
-**blog version**:
 **Python version**:
 **OS**:
 **Platform**:
