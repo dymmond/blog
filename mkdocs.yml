@@ -1,4 +1,4 @@
-site_name: Dymmond's official blog
+site_name: Dymmond Blog
 site_description: The official Dymmond's blog.
 site_url: https://blog.dymmond.com
 
@@ -16,8 +16,8 @@ theme:
         name: "Switch to dark mode"
     - scheme: "slate"
       media: "(prefers-color-scheme: dark)"
-      primary: "purple"
       accent: "amber"
+      primary: "light blue"
       toggle:
         icon: "material/lightbulb-outline"
         name: "Switch to light mode"
@@ -28,12 +28,19 @@ theme:
     - search.highlight
     - content.tabs.link
     - content.code.copy
-
-repo_name: dymmond/blog
-repo_url: https://github.com/dymmond/blog
-edit_uri: ""
+    - content.code.annotate
+    - content.tooltips
+    - content.code.select
+    - navigation.indexes
+    - navigation.path
+    # - navigation.tabs
+    - navigation.indexes
 plugins:
   - search
+  - blog:
+      blog_dir: .
+      post_date_format: full
+      post_excerpt: required
   - meta-descriptions:
       export_csv: false
       quiet: false
@@ -43,12 +50,19 @@ plugins:
       trim: false
   - markdownextradata:
       data: data
+  - rss:
+      match_path: blog/posts/.*
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
 
 nav:
-  - Introduction: "index.md"
-  - Contributing: "contributing.md"
-  - Sponsorship: "sponsorship.md"
-  - Release Notes: "release-notes.md"
+  - Blog: "index.md"
+#   - Contributing: "contributing.md"
+#   - Sponsorship: "sponsorship.md"
+#   - Release Notes: "release-notes.md"
 markdown_extensions:
   - toc:
       permalink: true
@@ -66,8 +80,6 @@ markdown_extensions:
   - attr_list
   - md_in_html
 
-extra:
-  alternate:
-    - link: /
-      name: English
-      lang: en
+extra_css:
+  - statics/css/extra.css
+  - statics/css/custom.css
