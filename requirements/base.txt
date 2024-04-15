@@ -6,4 +6,5 @@ mdx-include>=1.4.2,<2.0.0
 mkdocs-markdownextradata-plugin>=0.2.5,<0.3.0
 mkdocs-meta-descriptions-plugin>=2.3.0
 mkdocstrings[python]>=0.23.0,<0.30.0
+mkdocs-rss-plugin>=1.12.1
 pyyaml>=6.0,<7.0.0
