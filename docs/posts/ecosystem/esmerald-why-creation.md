@@ -11,7 +11,10 @@ authors:
 
 # Esmerald — Why did I create it?
 
+---
+
 <img src="https://res.cloudinary.com/dymmond/image/upload/v1673619342/esmerald/img/logo-gr_z1ot8o.png" alt="Esmerald" />
+
 
 Hello everyone, my name is Tiago Silva and I’m the creator of the Python web framework, [Esmerald][esmerald].
 

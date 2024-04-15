@@ -11,6 +11,8 @@ authors:
 
 # Lilya — Why it will be a game changer in the ASGI world
 
+---
+
 <img src="https://res.cloudinary.com/dymmond/image/upload/v1707501404/lilya/logo_quiotd.png" alt="Lilya" />
 
 Lilya
