@@ -59,6 +59,9 @@ plugins:
         - categories
         - tags
 
+nav:
+  - Home: "index.md"
+  - Website: "https://dymmond.com"
 markdown_extensions:
   - toc:
       permalink: true
