@@ -31,10 +31,11 @@ theme:
     - content.code.annotate
     - content.tooltips
     - content.code.select
-    - navigation.indexes
     - navigation.path
-    # - navigation.tabs
+    - navigation.tabs
     - navigation.indexes
+    - navigation.top
+    - navigation.tracking
 plugins:
   - search
   - blog:
@@ -58,11 +59,8 @@ plugins:
         - categories
         - tags
 
-nav:
-  - Blog: "index.md"
-#   - Contributing: "contributing.md"
-#   - Sponsorship: "sponsorship.md"
-#   - Release Notes: "release-notes.md"
+# nav:
+#   - Home: "index.md"
 markdown_extensions:
   - toc:
       permalink: true
