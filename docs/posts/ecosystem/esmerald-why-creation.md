@@ -1,5 +1,5 @@
 ---
-date: 2023-09-02 
+date: 2023-09-02
 categories:
   - Technology
   - Ecosystem
@@ -41,9 +41,9 @@ During my career I've used Django, Flask, Bottle, Pyramid and some other tools t
 
 I am also an open source enthusiast and the creator of some tools being used by a lot of people out there like Django Tenants URL and Django Messages DRF, among others.
 
-A few years ago alongside a very close friend of mine, also a software engineer, were thinking about 
-the hurdles and gaps we find in some of the ecosystems out there in different technological areas and 
-languages and imagining if we could help fill some of those gaps. 
+A few years ago alongside a very close friend of mine, also a software engineer, were thinking about
+the hurdles and gaps we find in some of the ecosystems out there in different technological areas and
+languages and imagining if we could help fill some of those gaps.
 
 There, the first iteration of what it would become Dymmond, was born.
 
@@ -63,7 +63,7 @@ I won't go through details here because those are not relevant but long story sh
 During my working experience I came to realise that I was using different tools and frameworks to solve
 simple problems. My frustration kicked in there. I remember thinking:
 
-> But why do I need to go through all of this work for a simple API or a simple integration? 
+> But why do I need to go through all of this work for a simple API or a simple integration?
 > Why I can't have all in one place, like a scaffold that allows me to have all in one place but without bloating the system?
 
 Again, Dymmond came back to my mind and that idea that I had with that friend so many years ago about the gaps was making even more sense.
@@ -77,7 +77,6 @@ And here it was when I decided to take after hours of work (a lot of extra hours
 I understand what you might be thinking now, something around these lines, probably:
 
 > Sure, "another" framework but now we have FastAPI, why didn't you simply use it?
-
 
 And this would be an extremely fair question with a simple answer. Because FastAPI although being a
 fantastic Python framework and doing the job it was designed to do really well was not yet solving
@@ -135,7 +134,7 @@ And a lot more that came along the way during the last few months.
 
 In the end it was mandatory to be **Elegant**, **Modular** and **Pluggable**.
 
-Did you read the guideline integration? Well, that friend played a crucial role in the 
+Did you read the guideline integration? Well, that friend played a crucial role in the
 development of the mindset of [Esmerald][esmerald], I even risk to say that without him, [Esmerald][esmerald] wouldn't even
 exist in the way it is in the first place. Here was where the [Esmerald][esmerald] DAOs were born!
 
@@ -197,7 +196,7 @@ This article was never aimed to go technical on Esmerald and I know some people 
 
 This article was just to explain the reasons that made Esmerald possible and welcomed in the Python community without going through a whole three hour reading essay.
 
-It is a long path to go to have people using it without thinking about "competition" or even to get contributors on board but in the same way Esmerald that was 
+It is a long path to go to have people using it without thinking about "competition" or even to get contributors on board but in the same way Esmerald that was
 initially Dymmond and took time to come to be, this is also a journey to get there and not a sprint.
 
 Looking forward to have a great community behind Esmerald as well as behind the whole Python ecosystem, after all we are here to help each other growing and getting better.
