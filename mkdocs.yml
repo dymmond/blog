@@ -22,7 +22,7 @@ theme:
         icon: "material/lightbulb-outline"
         name: "Switch to light mode"
   favicon: statics/images/favicon.ico
-  logo: statics/images/logo-white.svg
+  logo: statics/images/white.png
   features:
     - search.suggest
     - search.highlight
@@ -59,8 +59,6 @@ plugins:
         - categories
         - tags
 
-# nav:
-#   - Home: "index.md"
 markdown_extensions:
   - toc:
       permalink: true
