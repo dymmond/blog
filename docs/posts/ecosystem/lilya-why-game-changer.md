@@ -1,5 +1,5 @@
 ---
-date: 2024-04-03 
+date: 2024-04-03
 categories:
   - Technology
   - Ecosystem
@@ -7,6 +7,7 @@ categories:
 slug: lilya-asgi-game-changer
 authors:
   - tarsil
+comments: true
 ---
 
 # Lilya — Why it will be a game changer in the ASGI world
@@ -249,7 +250,7 @@ app = Lilya(
 )
 ```
 
-Now, the cool thing about this is that Lilya uses the Python protocols to define the middlewares and this 
+Now, the cool thing about this is that Lilya uses the Python protocols to define the middlewares and this
 is a good practice since allows you to design with structure and precision any desired logic that should be placed in the middleware.
 
 ```python

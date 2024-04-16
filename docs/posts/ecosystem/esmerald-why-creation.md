@@ -7,6 +7,7 @@ categories:
 slug: esmerald-why-did-i-create-it
 authors:
   - tarsil
+comments: true
 ---
 
 # Esmerald — Why did I create it?

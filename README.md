@@ -104,7 +104,7 @@ Then in your article, on the top of the `.md` file.
 
 ```yaml
 ---
-date: 2024-04-01 
+date: 2024-04-01
 categories:
   - Technology
   - Opinion
@@ -122,6 +122,26 @@ These are the classifiers of the article, basically where you can filter them ou
 a specific category.
 
 **Make sure you classify it approperly or the PR will be rejected.**
+
+### Comments
+
+If you want to add the possibility of people commenting your article, you simply need to add `comments: true`
+to the section of the metadata of the article.
+
+**Example**
+
+```yaml
+---
+date: 2024-04-01
+categories:
+  - Technology
+  - Opinion
+slug: the-article-slug
+authors:
+  - spiderman
+comments: true
+---
+```
 
 ## Final notes
 
