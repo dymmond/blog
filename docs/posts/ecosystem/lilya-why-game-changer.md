@@ -659,15 +659,7 @@ The motivation to take Esmerald to the next level brough Lilya to you and a lot 
 
 I hope you enjoyed this little nugget.
 
-## External Links
-
-* **Dymmond Official Website**: https://dymmond.com
-* **Lilya**: https://lilya.dev
-* **Esmerald**: https://esmerald.dev
-* **Edgy**: https://edgy.tarsild.io
-* **Saffier**: https://saffier.tarsild.io
-* **Mongoz**: https://mongoz.tarsild.io
-* **Asyncz**: https://asyncz.tarsild.io
+{!> ../docs_src/shared/external_links.md !}
 
 [lilya]: https://lilya.dev
 [esmerald]: https://esmerald.dev

@@ -203,22 +203,6 @@ initially Dymmond and took time to come to be, this is also a journey to get the
 Looking forward to have a great community behind Esmerald as well as behind the whole Python ecosystem, after all we are here to help each other growing and getting better.
 Thank you for reading this.
 
-## External links
-
-If you liked this article and liked the idea of Esmerald and would like to give it a try, I salute you for that and you can clap and share the article for others to enjoy too.
-
-There is a dedicated Discord channel for Dymmond where we can debate ideas, bugs or all in between.
-
-* **Discord**: [https://discord.gg/eMrM9sWWvu](https://discord.gg/eMrM9sWWvu)
-* **Twitter**: [https://twitter.com/apiesmerald](https://twitter.com/apiesmerald)
-* **Github**: [https://github.com/dymmond/esmerald](https://github.com/dymmond/esmerald)
-
-If you like the tools built and would like to try something more:
-
-* **Lilya**: [https://lilya.dev](https://lilya.dev). An ASGI Python toolkit.
-* **Saffier**: [https://saffier.tarsild.io](https://saffier.tarsild.io). An async ORM for Python.
-* **Edgy**: [https://edgy.tarsild.io](https://edgy.tarsild.io). Another async ORM for Python but built 100% on top of Pydantic.
-* **Mongoz**: [https://mongoz.tarsild.io](https://mongoz.tarsild.io). An ODM with Pydantic for MongoDB with a familiar interface.
-* **Asyncz**: [https://asyncz.tarsild.io](https://asyncz.tarsild.io)
+{!> ../docs_src/shared/external_links.md !}
 
 [esmerald]: https://esmerald.dev
